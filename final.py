@@ -12,4 +12,4 @@ note =[
     issue_date,
     [title1, title2, title3]
 ]
-print(note)
+print(note, end=" ")
