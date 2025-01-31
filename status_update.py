@@ -14,6 +14,6 @@ while status_inp not in ["1","2","3"]:
             "3. Отложено\n",
             "(Введите соответствующую цифру): ", end="")
     status_inp = input()
-else: # Иначе, выводим статус
-    status = stat_dict.get(status_inp) # Эта строчка вытаскивает значения по ключу из словаря
+else: 
+    status = stat_dict.get(status_inp) 
     print("Статус Вашей заметки:", status.upper(), end="")
